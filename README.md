@@ -4,7 +4,10 @@ step 1: git clone https://github.com/DayleChettiar/Ajax_Crud_jTable_Servlet.git
             mvn tomcat7:run
 
 step 2: from the command line, run the 'createSQL.sql' file as follows:
-        >> source <path to the createSQL.sql file>/createSQL.sql 
+              
+      
+          >>>source <<path to the createSQL.sql file>>/createSQL.sql
+
           
         This creates a database named 'XE' and a table named 'Student' in it with user = root and password = test
           
